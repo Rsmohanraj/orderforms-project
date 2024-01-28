@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form submission</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+<body>
+  <img src="./menu.jpg" alt="">
+ <div class="container">
+  <h1 id="title">food order forms</h1>
+  <h3 id="description"> <click>submit your details</click></h3>
+  <div class="form-group">
+  <form action="" id="form">
+    <label class ="form-field" for="firstName">First name</label>
+  <input class ="form-field" type="text" placeholder="Fill your  first name here" id="firstName">
+
+  <label class ="form-field" for="lastName">Last name</label>
+  <input class ="form-field" type="text" placeholder="Fill your last name here" id="lastName">
+
+  <label class ="form-field" for="address">address</label>
+<input class ="form-field" type="text" placeholder="Fill your adress here" id="adress">
+
+<label class ="form-field" for="pincode">pincode</label>
+<input class ="form-field" type="text" placeholder="your area pincode number" id="pincode">
+
+<label class ="form-field" for="gender">Gender</label>
+<select class ="form-field" name="gender" id="gender">
+  <option value="">-Select Gender-</option>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Other">Other</option>
+</select>
+
+<label class ="form-field" for="food">Choice Of Food</label>
+<select class ="form-field" name="food" id="food">
+  <option value="">Choice Of Food</option>
+  <option value="veg briyani">veg briyani</option>
+  <option value="chicken gravy">chicken gravy</option>
+  <option value="BBQ">BBQ</option>
+  <option value="GRILL">grill</option>
+  <option value="Fish BONELESS">Fish boneless</option>
+</select>
+
+<label class ="form-field" for="state">State</label>
+<input class ="form-field" type="text" placeholder="Fill your state name here" id="state">
+
+<label class ="form-field" for="CITY">City</label>
+<input class ="form-field" type="text" placeholder="fill your City name here" id="country">
+
+<button class ="form-field" type="submit" id="submit">submit</button>
+</form>
+</div>
+
+<table class="table">
+  <thead>
+  <tr>
+  <th>First name</th>
+  <th>Last name</th>
+  <th>Adress</th>
+  <th>Pincode</th>
+  <th>Gender</th>
+  <th>Choice Of Food</th>
+  <th>State</th>
+  <th>Country</th>
+</tr>
+</thead>
+<tbody>
+
+</tbody>
+
+</table>
+</div>
+</body>
+<script src="script.js"></script>
+
+
+</html>
